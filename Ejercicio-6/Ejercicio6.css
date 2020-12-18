@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+form, h1 {
+    border-radius: 1em;
+    text-align: center;
+    width: 60%;
+}
+
+h1 {
+    background-color: black;
+    color: orange;
+    margin: 1em auto 0;
+    padding: 1em;
+}
+
+form {
+    background-color: orange;
+    display: block;
+    margin: 2em auto 0;
+    padding: 2em;
+}
+
+fieldset{
+    border: 0;
+    margin: 0 auto;
+}
+
+label {
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+fieldset label {
+    float: left;
+    clear: left;
+    text-align: right;
+    width: 50%;
+}
+
+fieldset input[type=text] {
+    float: left;
+}
+
+.long-form-submit {
+    margin-top: 2em;
+}
+
+.info {
+    margin-top: 1.5em;
+}
