@@ -12,6 +12,12 @@ body {
     background-size: cover;
 }
 
+h1 {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
 nav {
     overflow: hidden;
     width: 100%;
