@@ -11,79 +11,79 @@
         
         <form action="#" method="POST">
             <label for="db-name">Base de datos:</label>
-            <input type="text" name="db-name"/>
+            <input type="text" id="db-name" name="db-name"/>
             <input type="submit" name="create-db" value="Crear o seleccionar"/>
                     </form>
 
         <form action="#" method="POST">
             <label for="create-table">Crear tabla pruebas de usabilidad:</label>
-            <input type = "submit" name="create-table" value="Crear tabla"/>
+            <input type = "submit" id="create-table" name="create-table" value="Crear tabla"/>
                     </form>
 
         <form action="#" method="POST">
             <fieldset>
                 <label for="dni">DNI:</label>
-                <input type="text" name="dni"/>
+                <input type="text" id="dni" name="dni"/>
             </fieldset>
 
             <fieldset>
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre"/>
+                <input type="text" id="nombre" name="nombre"/>
             </fieldset>
             
             <fieldset>
                 <label for="apellidos">Apellido:</label>
-                <input type="text" name="apellidos"/>
+                <input type="text" id="apellidos" name="apellidos"/>
             </fieldset>
 
             <fieldset>
                 <label for="email">Email:</label>
-                <input type="text" name="email"/>
+                <input type="text" id="email" name="email"/>
             </fieldset>
 
             <fieldset>
                 <label for="telefono">Telefono:</label>
-                <input type="text" name="telefono"/>
+                <input type="text" id="telefono" name="telefono"/>
             </fieldset>
 
             <fieldset>
                 <label for="edad">Edad:</label>
-                <input type="text" name="edad"/>
+                <input type="text" id="edad" name="edad"/>
             </fieldset>
 
             <fieldset>
                 <label for="sexo">Sexo:</label>
-                <input type="text" name="sexo"/>
+                <input type="text" id="sexo" name="sexo"/>
             </fieldset>
 
             <fieldset>
                 <label for="nivel-informatica">Nivel de conocimientos informaticos(1-10):</label>
-                <input type="text" name="nivel-informatica"/>
+                <input type="text" id="nivel-informatica" name="nivel-informatica"/>
             </fieldset>
 
             <fieldset>
                 <label for="tiempo">Tiempo(en segundos):</label>
-                <input type="text" name="tiempo"/>
+                <input type="text" id="tiempo" name="tiempo"/>
             </fieldset>
             
             <fieldset>
                 <label for="exito">Exito al realizar la prueba, siendo 1 exito y 0 fracaso:</label>
-                <input type="text" name="exito"/>
+                <input type="text" id="exito" name="exito"/>
             </fieldset>
 
             <fieldset>
                 <label for="comentarios">Comentarios:</label>
-                <input type="text" name="comentarios"/>
+                <input type="text" id="comentarios" name="comentarios"/>
             </fieldset>
 
             <fieldset>
                 <label for="propuestas">Propuestas:</label>
-                <input type="text" name="propuestas"/>
+                <input type="text" id="propuestas" name="propuestas"/>
             </fieldset>
 
             <fieldset>
                 <label for="valoracion">Valoracion(1-10):</label>
-                <input type="text" name="valoracion"/>
+                <input type="text" id="valoracion" name="valoracion"/>
             </fieldset>
 
             <input type="submit" class="long-form-submit" name="add-test" value="Añadir entrada"/>
@@ -93,37 +93,37 @@
 
         <form action="#" method="POST">
             <label for="test-dni">DNI de la entrada a eliminar:</label>
-            <input type="text" name="test-dni"/>
+            <input type="text" id="test-dni" name="test-dni"/>
             <input type="submit" name="delete-test" value="Eliminar entrada"/>
                     </form>
 
         <form action="#" method="POST">
             <label for="search-dni">DNI de la entrada a buscar:</label>
-            <input type="text" name="search-dni"/>
+            <input type="text" id="search-dni" name="search-dni"/>
             <input type="submit" name="find-test" value="Buscar entrada"/>
                     </form>
 
         <form action="#" method="POST">
             <label for="filename">CSV del que sacar los datos:</label>
-            <input type="text" name="filename"/>
+            <input type="text" id="filename" name="filename"/>
             <input type="submit" name="parse-csv" value="Generar entradas"/>
                     </form>
 
         <form action="#" method="POST">
             <label for="generate-csv">Generar archivo CSV:</label>
-            <input type="submit" name="generate-csv" value="Generar archivo"/>
+            <input type="submit" id="generate-csv" name="generate-csv" value="Generar archivo"/>
                     </form>
 
         <form>
             <fieldset>
-            <label for='Media de edad-info'>Media de edad:</label>
-            <input type='text' id='Media-de-edad' name='Media-de-edad-info' value='26' disabled/><label for='Porcentaje de hombres-info'>Porcentaje de hombres:</label>
-            <input type='text' id='Porcentaje-de-hombres' name='Porcentaje-de-hombres-info' value='66.666666666667%' disabled/><label for='Porcentaje de mujeres-info'>Porcentaje de mujeres:</label>
-            <input type='text' id='Porcentaje-de-mujeres' name='Porcentaje-de-mujeres-info' value='33.333333333333%' disabled/><label for='Media de nivel de informatica-info'>Media de nivel de informatica:</label>
-            <input type='text' id='Media-de-nivel-de-informatica' name='Media-de-nivel-de-informatica-info' value='6' disabled/><label for='Media de tiempo-info'>Media de tiempo:</label>
-            <input type='text' id='Media-de-tiempo' name='Media-de-tiempo-info' value='503' disabled/><label for='Porcentaje de exitos-info'>Porcentaje de exitos:</label>
-            <input type='text' id='Porcentaje-de-exitos' name='Porcentaje-de-exitos-info' value='66.666666666667%' disabled/><label for='Media de valoracion-info'>Media de valoracion:</label>
-            <input type='text' id='Media-de-valoracion' name='Media-de-valoracion-info' value='5' disabled/>            </fieldset>
+            <label for='Media-de-edad-info'>Media de edad:</label>
+            <input type='text' id='Media-de-edad-info' name='Media-de-edad-info' value='26' disabled/><label for='Porcentaje-de-hombres-info'>Porcentaje de hombres:</label>
+            <input type='text' id='Porcentaje-de-hombres-info' name='Porcentaje-de-hombres-info' value='66.666666666667%' disabled/><label for='Porcentaje-de-mujeres-info'>Porcentaje de mujeres:</label>
+            <input type='text' id='Porcentaje-de-mujeres-info' name='Porcentaje-de-mujeres-info' value='33.333333333333%' disabled/><label for='Media-de-nivel-de-informatica-info'>Media de nivel de informatica:</label>
+            <input type='text' id='Media-de-nivel-de-informatica-info' name='Media-de-nivel-de-informatica-info' value='6' disabled/><label for='Media-de-tiempo-info'>Media de tiempo:</label>
+            <input type='text' id='Media-de-tiempo-info' name='Media-de-tiempo-info' value='503' disabled/><label for='Porcentaje-de-exitos-info'>Porcentaje de exitos:</label>
+            <input type='text' id='Porcentaje-de-exitos-info' name='Porcentaje-de-exitos-info' value='66.666666666667%' disabled/><label for='Media-de-valoracion-info'>Media de valoracion:</label>
+            <input type='text' id='Media-de-valoracion-info' name='Media-de-valoracion-info' value='5' disabled/>            </fieldset>
         </form>
     </body>
     </html>
