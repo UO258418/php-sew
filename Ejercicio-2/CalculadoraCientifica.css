@@ -1,0 +1,67 @@
+body {
+    margin: 10vh auto;
+    width: 100vw;
+    height: 80vh;
+}
+
+main {
+    background-color: #DFDFDF;
+    width: 40%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    margin: 10% auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1%;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#display {
+    display: block;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 1em;
+    background-color: #DFDFDF;
+    color: black;
+    border: none;
+}
+
+input[type=submit] {
+    font-size: 1em;
+    background-color: #EEEEEE;
+    border: none;
+}
+
+input[type=submit]:focus {
+    outline-style: none;
+}
+
+input[type=submit].digit {
+    background-color: #FFFFFF;
+}
+
+input[type=submit]:active {
+    box-sizing: border-box;
+    border: 1px solid #848484;
+}

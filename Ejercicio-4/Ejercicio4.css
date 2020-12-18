@@ -1,0 +1,19 @@
+h1 {
+    background-color: #3F81C3;
+    color: white;
+    border-radius: 0.5em;
+    padding: 1.25em 1em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 1em auto;
+}
