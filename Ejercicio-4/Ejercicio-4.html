@@ -1,0 +1,38 @@
+<html lang="es-ES">
+    <head>
+        <title>Ejercicio4</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="Ejercicio4.css"/>
+    </head>
+
+    <body>
+        <h1>Currency converter</h1>
+
+        <form action='#' method='post' name='convert'>
+            <input type="text"  title="amount" id="amount" name="amount"/>
+
+            <label for="from">From:</label>
+            <select name="from" id="from">
+                <option value="EUR">Euro</option>
+                <option value="USD">United States Dollar</option>
+                <option value="GBP">British Pound Sterling</option>
+                <option value="RUB">Russian ruble</option>
+                <option value="RON">Romanian Leu</option>
+                <option value="PLN">Polish zloty</option>
+            </select>
+
+            <label for="to">To:</label>
+            <select name="to" id="to">
+                <option value="EUR">Euro</option>
+                <option value="USD">United States Dollar</option>
+                <option value="GBP">British Pound Sterling</option>
+                <option value="RUB">Russian ruble</option>
+                <option value="RON">Romanian Leu</option>
+                <option value="PLN">Polish zloty</option>
+            </select>
+
+            <input type="submit" value="Convertir" name="submit"/>
+        </form>
+
+        <input type='text' title='display' id='display' value='129.294165' disabled/>    </body>
+</html>
